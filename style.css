@@ -1,0 +1,182 @@
+.logoimg {
+    width: 60px;
+    margin: 0 14px;
+}
+
+#cabecalho {
+    padding: 25px 0;
+}
+
+.sobre {
+    text-align: center;
+    color: dark;
+    font-size: large;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#cabecalho h3 {
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+}
+
+#metricas .container {
+    display: flex;
+    align-items: center;
+}
+
+.metrica {
+    margin: 11px;
+}
+
+.metrica p {
+    color: #0078AD;
+    font-size: 50px;
+}
+
+.txt p {
+    color: black;
+    font-size: 18px;
+}
+
+#vagas {
+    padding: 50px;
+}
+
+#vagas .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#vagas .vag h2 {
+    color: #0078AD;
+    font-size: 20px;
+    background-color: rgba(184, 184, 184, 0.493);
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+}
+
+#vagas p {
+    padding: 12px;
+    font-size: 20px;
+}
+
+#vagas h4 {
+    font-size: 35px;
+}
+
+ .design h4 {
+    width: 768px;
+    height: 30px;
+    margin: 20px 0 30px 0;
+}
+
+#vagas h5 {
+    padding: 10px;
+}
+
+.tittle {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 18px;
+}
+
+.prodes {
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+}
+
+#depoimentos .container {
+    background-color: rgba(0, 120, 173, 0.03);
+    border-radius: 16px;
+    margin: auto;
+}
+
+#depoimentos h2 {
+    color: #0078AD;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#depoimentos p {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+#depoimentos img{
+    margin: auto;
+    height: 65px;
+    width: 65px;
+    display: flex;
+}
+
+#depoimentos .imgdep p {
+    font-size: 15px;
+}
+
+.mb-3 {
+    display: flex;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+
+    .cavalo {
+        width: 100%;
+    }
+
+    #vagas .design {
+        width: 550px;
+    }
+
+    #vagas h4 {
+        width: 550px;
+    }
+}
+
+@media (max-width:550px) {
+
+    #metricas .container {
+        flex-direction: column;
+    }
+
+    #vagas .design {
+        width: 425px;
+    }
+
+    #vagas h4 {
+        width: 425px;
+    }
+}
+
+@media (max-width:425px) {
+
+    #vagas .design {
+        width: auto;
+    }
+
+    #vagas h4 {
+        width: auto;
+        font-size: 22px;
+    }
+}
+
+@media (max-width:320px) {
+
+    #vagas .design {
+        width: 320px;
+    }
+
+    #vagas .design .prodes {
+        gap: 8px;
+    }
+    
+}
